@@ -190,7 +190,7 @@ def pilih():
 	else:
 		print "\033[1;96m \x1b[1;91mFill in correctly"
 		pilih()
-    def super():
+        def super():
 	global toket
 	os.system('clear')
 	try:
