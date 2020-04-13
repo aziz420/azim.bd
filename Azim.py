@@ -209,7 +209,7 @@ def super():
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Back"
 	pilih_super()
 def pilih_super():
-peak = raw_input("\n\033[1;97m >>> \033[1;97m")
+        peak = raw_input("\n\033[1;97m >>> \033[1;97m")
 	if peak =="":
 		print "\033[1;96m \x1b[1;91mFill in correctly"
 		pilih_super()
