@@ -268,7 +268,7 @@ def pilih_super():
 	print 42*"\033[1;96m="
   
   
-  def main(arg):
+        def main(arg):
 		global cekpoint,oks
 		user = arg
 		try:
