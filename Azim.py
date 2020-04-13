@@ -240,7 +240,7 @@ def pilih_super():
 		z = json.loads(r.text)
 		for i in z['data']:
 			id.append(i['id'])
-      elif peak =="3":
+        elif peak =="3":
 		os.system('clear')
 		print logo
 		print 42*"\033[1;96m="
