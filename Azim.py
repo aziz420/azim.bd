@@ -299,7 +299,7 @@ def pilih_super():
 						print '\x1b[1;96m[\x1b[1;92mSuccessful\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass2
 						oks.append(user+pass2)
 					else:
-          if 'www.facebook.com' in q["error_msg"]:
+                                                if 'www.facebook.com' in q["error_msg"]:
 							print '\x1b[1;96m[\x1b[1;93mCHECKPOINT\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass2
 							cek = open("out/checkpoint.txt", "a")
 							cek.write(user+"|"+pass2+"\n")
