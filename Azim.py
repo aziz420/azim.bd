@@ -1,5 +1,3 @@
-#!/usr/bin/python2
-#coding=utf-8
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -39,10 +37,9 @@ def jalan(z):
 		time.sleep(00000.1)
 ##### LOGO #####
 logo = """
-
 ▄▀█   ▀█   █   █▀▄▀█
 █▀█   █▄   █   █░▀░█
- 
+\xe2
 \033[1;91m=======================================
 \033[1;96mAuthor  \033[1;93m: \033[1;92mDJ
 \033[1;96mYouTube \033[1;93m: \033[1;92mAnonymous Trickers
@@ -65,10 +62,10 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ========================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mDJ
-\033[1;96mYouTube \033[1;93m: \033[1;92mAnonymous Trickers
-\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/FAKHAR143/Mr_DJ
-\033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/Anonymoustricker1
+\033[1;96mAuthor  \033[1;93m: \033[1;92mAxim
+\033[1;96mYouTube \033[1;93m: \033[1;92mAzim Mahmud
+\033[1;96mGitHub  \033[1;93m: \033[1;92mhttps://github.com/azimbd/azim.bd
+\033[1;96mpage \033[1;93m: \033[1;92mhttps://www.facebook.com/mr.azim.vau
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 CorrectUsername = "Azim"
