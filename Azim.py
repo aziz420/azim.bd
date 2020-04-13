@@ -176,7 +176,7 @@ def menu():
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start CLONING WITH DJ"
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
 	pilih()
-  def pilih():
+def pilih():
 	unikers = raw_input("\n\033[1;97m >>> \033[1;97m")
 	if unikers =="":
 		print "\033[1;96m \x1b[1;91mFill in correctly"
